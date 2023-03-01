@@ -420,3 +420,141 @@ True
 False
 
 #### Answer:  False	
+---
+#### Question 28
+
+The following is in increasing order of growth:
+
+	O(1)< O(n) < O(log n) <O(n * log n) < O(n2) < O(n3) < O(2n)
+
+#### Answer: False 
+---
+#### Question 29
+
+> Banks often record transactions on an account in order of the times of the transactions, but many people like to receive their bank statements with checks listed in order by check number. People usually write checks in order by check number, and merchants usually cash them with reasonable dispatch. The problem of converting time-of-transaction ordering to check-number ordering is therefore the problem of sorting almost-sorted input. What sorting algorithm would work best for this case?
+
+A. Insertion sort algorithm<br>
+B. Merge-Sort algorithm<br>
+C.  Heap-Sort algorithm<br>
+D. Quick-Sort algorithm<br>
+E. Counting-Sort algorithm<br>
+
+
+#### Answer: 
+---
+
+#### Question 30 
+
+The formal approach to determining the big-O complexity of an algorithm is to set up recurrence relations and solve them.
+
+The recurrence relation for the Linear Search algorithm is defined by:
+
+I. T(n)=T(n-1)+1<br>
+II. T(n) = 2T(n/2)+1<br>
+III. T(n)=T(n-1)+Theta(n)<br>
+IV. T(n)=2T(n/2)+Theta(n)<br>
+V. None of the above<br>
+
+#### Answer: 
+---
+
+#### Question 31
+
+The total number of comparisons in bubble sort is
+
+I.  O(n)<br>
+II. O(log n )<br>
+III. O(n^2)<br>
+IV. O(n log n)<br>
+V. None of the above<br>
+ 
+Flag question: Question 32
+
+#### Answer: 
+---
+
+#### Question 32
+
+The recurrence relation for the Merge Sort algorithm is defined by:
+
+I. T(n)=T(n-1)+1<br>
+II. T(n) = 2T(n/2)+1<br>
+III. T(n)=T(n-1)+Theta(n)<br>
+IV. T(n)=2T(n/2)+Theta(n)<br>
+V. None of the above<br><br>
+#### Answer: 
+---
+#### Question 33
+
+The sorting algorithm that proceeds by finding the smallest (or largest, depending on sorting order) element in the unsorted sublist, exchanging it with the leftmost unsorted element (putting it in sorted order), and moving the sublist boundaries one element to the right.
+
+I. Selection Sort<br>
+II. Bubble Sort<br>
+III. Merge Sort<br>
+IV. Quick Sort<br>
+V. Insertion Sort<br>
+#### Answer: 
+---
+#### Question 34
+
+The complexity of Binary search algorithm is
+
+I.  O(n)<br>
+II. O(log n )<br>
+III. O(n^2)<br>
+IV. O(n log n)<br>
+
+#### Answer: 
+---
+#### Question 35
+
+The hash function is used to insert the keys  61, 62, 63, 64, and 65  into a hash table of size m = 1000.    
+
+<img src="./images/Question35.png">
+
+The order of the hash codes in the table are given by
+
+	A. 625, 125, 0, 750, 875
+	B. 625, 750, 625, 125, 0
+	C. 625,125, 0, 875, 750
+	D. 625, 750, 875, 0, 125
+	E. 625, 750, 125, 875, 0
+#### Answer: 
+---
+
+#### Question 36
+
+Suppose we need to write an efficient program to store N employee records for ABC Inc where each employee record is identified by unique employee id. Consider the following ways to store the records.
+
+    An array list sorted by employee id
+    A linked list sorted by employee id
+    A linked list not sorted
+    A balanced binary search tree with employee id as key
+
+For data structure above in 1 -4, what is the average time to insert a new employee record given employee id as a key?
+
+A.  O(log N), O(log N), O(N), O(1)<br>
+B. O(log N), O(N), O(N), O(log N)<br>
+C. O(N), O(log N), O(N), O(1)<br>
+D.  O(log N), O(log N), O(N), O(log N)<br>
+E. O(N), O(N), O(1), O(log N)<br>
+
+#### Answer: 
+---
+
+
+#### Question 37
+
+Consider the recurrence equation 
+	T(n) = 2T(n-1), if n>0
+		= 1, otherwise
+
+Then T(n) is 
+
+A) Θ(n2)<br>
+B) Θ(n2 log n)<br>
+C) Θ(2n)<br>
+D) Θ(n!)<br>
+E) Θ(n log n)<br>
+
+
