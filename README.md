@@ -147,10 +147,9 @@ What is the order in which the nodes are visited using BFS and DFS algorithms.
 	E) None of the above are correct
 See these examples:
 
-	./examples/Question_12_BFS.py
-	./examples/Question_12_DFS.py
+<a href="https://github.com/Shramster/MLO3_StudyGuide/blob/main/examples/Question_12_BFS.py"> ./examples/Question_12_BFS.py </a>
 
-
+<a href="https://github.com/Shramster/MLO3_StudyGuide/blob/main/examples/Question_12_DFS.py"> ./examples/Question_12_DFS.py </a>
 
 #### Answer: D
 --- 
@@ -227,8 +226,9 @@ In what order would the vertices in the graph be visited using DFS algorithm (AS
 
 See these examples:
 
-	./examples/Question_17_BFS.py
-	./examples/Question_17_DFS.py
+<a href="https://github.com/Shramster/MLO3_StudyGuide/blob/main/examples/Question_17_BFS.py"> ./examples/Question_17_BFS.py </a>
+
+<a href="https://github.com/Shramster/MLO3_StudyGuide/blob/main/examples/Question_17_DFS.py"> ./examples/Question_17_BFS.py </a>
 
 
 	[shram@latty ~/MLO3/Answers/examples]$ python Question_17_BFS.py
