@@ -442,7 +442,7 @@ D. Quick-Sort algorithm<br>
 E. Counting-Sort algorithm<br>
 
 
-#### Answer: 
+#### Answer: A
 ---
 
 #### Question 30 
@@ -457,7 +457,7 @@ III. T(n)=T(n-1)+Theta(n)<br>
 IV. T(n)=2T(n/2)+Theta(n)<br>
 V. None of the above<br>
 
-#### Answer: 
+#### Answer: I
 ---
 
 #### Question 31
@@ -472,7 +472,7 @@ V. None of the above<br>
  
 Flag question: Question 32
 
-#### Answer: 
+#### Answer: III
 ---
 
 #### Question 32
@@ -484,7 +484,7 @@ II. T(n) = 2T(n/2)+1<br>
 III. T(n)=T(n-1)+Theta(n)<br>
 IV. T(n)=2T(n/2)+Theta(n)<br>
 V. None of the above<br><br>
-#### Answer: 
+#### Answer: IV
 ---
 #### Question 33
 
@@ -495,7 +495,7 @@ II. Bubble Sort<br>
 III. Merge Sort<br>
 IV. Quick Sort<br>
 V. Insertion Sort<br>
-#### Answer: 
+#### Answer: I
 ---
 #### Question 34
 
@@ -506,7 +506,7 @@ II. O(log n )<br>
 III. O(n^2)<br>
 IV. O(n log n)<br>
 
-#### Answer: 
+#### Answer: II
 ---
 #### Question 35
 
