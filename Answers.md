@@ -113,7 +113,7 @@ E: Ɵ (log n2)<br>
 
 Which of the following have the same order of growth? Choose ALL that apply:
 
-<img src="./images/Question\ 9.png">
+<img src="./images/Question9.png">
 
 
 
