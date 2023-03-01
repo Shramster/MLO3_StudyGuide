@@ -12,7 +12,9 @@
 	}
 #### Answer:  C)  T(n) = 2T(n/2) + O(1)
 ---
-#### Question 2:  T(n) = 1 if  n = 1 , n * T(n-1) if n>1 
+#### Question 2:
+	T(n) = 1 if  n = 1 ,
+	       n * T(n-1) if n>1 
 
 https://www.youtube.com/watch?v=icS-e8RaCyo
 
@@ -541,8 +543,6 @@ E. O(N), O(N), O(1), O(log N)<br>
 
 #### Answer: 
 ---
-
-
 #### Question 37
 
 Consider the recurrence equation 
@@ -558,3 +558,157 @@ D) Θ(n!)<br>
 E) Θ(n log n)<br>
 
 
+#### Answer: 
+---
+#### Question 38
+
+Which of the following is the solution using the Master Theorem for the recurrence relation
+
+T(n)=4T(n/2) + log n
+
+ 
+A) Θ(n2)<br>
+B) Θ(n2 log n)<br>
+C) Θ(2n)<br>
+D) Θ(n!)<br>
+E) Θ(n log n)<br>
+
+#### Answer: 
+---
+#### Question 39 1 pts
+
+Which of the following is the solution using the Master Theorem for the recurrence relation
+
+T(n)=16T(n/4) + n
+
+A) Θ(n2)<br>
+B) Θ(n2 log n)<br>
+C) Θ(2n)<br>
+D) Θ(n!)<br>
+E) Θ(n log n)<br>
+
+#### Answer: 
+---
+#### Question 40
+
+Which of the following is the solution using the Master Theorem for the recurrence relation
+
+T(n)=4T(n/2) + n^2
+
+A) Θ(n2)<br>
+B) Θ(n2 log n)<br>
+C) Θ(2n)<br>
+D) Θ(n!)<br>
+E) Θ(n log n)<br>
+
+#### Question 41 1 pts
+
+Which of the following is the solution using the Master Theorem for the recurrence relation
+
+T(n)=3T(n/2) + n2
+
+#### Answer: 
+---
+
+#### Question 42
+
+What is the minimum possible weight of the spanning tree 
+
+<img src="./images/Question42.png">
+
+
+A) 25<br>
+B) 15<br>
+C) 20<br>
+D) 12<br>
+E) 16<br>
+
+
+
+
+
+#### Answer: 
+---
+#### Question 43
+
+Which of the above graphs can be categorized as a tree?
+
+<img src="./images/Question43.jpg">
+
+#### Answer: 
+---
+
+#### Question 44
+
+<img src="./images/Question44.png">
+
+In what order the vertices of the graph are visited in depth-first search that starts at vertex b
+
+(Assume that the neighbors of a vertex are visited in alphabetical order)
+
+ 
+I)  b, a, d, c, e, h, f, g<br>
+II)  b, a, d, c, h, e, f, g<br>
+III) b, a, e, d, g, c, f, h<br>
+IV)  b, a , d, e, c, f, g, h<br>
+V) None of the above<br>
+#### Answer: 
+---
+
+#### Question 45
+
+Consider the MAX HEAP below:
+
+
+<img src="./images/Question45.png">
+
+#### Answer: 
+---
+#### Question 46
+
+What is the Postorder Traversal of the following tree
+
+<img src="./images/Question46.png">
+
+ 
+
+I)  F, J, I, H, G, E, D<br>
+II) G, H, I, J, E, D, F<br>
+III)  D, F, E, H, I, J, G<br>
+IV)  D, E, G, H, I, J, F<br>
+V)  G, J, I, H, E, F, D<br>
+
+#### Answer: 
+---
+#### Question 47
+Sort an array in ascending order using Merge sort. The best case (array is already sorted in ascending order) takes  as many iterations/Comparisons as its worst case (array is sorted in descending order)  
+
+T / F ?
+
+#### Answer: 
+---
+#### Question 48
+
+With 1000 elements,  the maximum height of the max-heap tree is 10
+
+(Tree height: the  longest path from the root node to a leaf node.  )  
+
+T / F ?
+#### Answer: 
+---
+#### Question 49
+f(n)=O(g(n)) if and only if g(n)=O(f(n)) 
+
+
+T / F ?
+
+#### Answer: 
+---
+
+#### Question 50
+The solution of T(n) = T(n - 2) + n is Theta(n2)                
+
+T / F ?
+
+#### Answer: 
+---
