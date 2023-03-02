@@ -521,7 +521,7 @@ The order of the hash codes in the table are given by
 	C. 625,125, 0, 875, 750
 	D. 625, 750, 875, 0, 125
 	E. 625, 750, 125, 875, 0
-#### Answer: 
+#### Answer: D
 ---
 
 #### Question 36
@@ -541,7 +541,7 @@ C. O(N), O(log N), O(N), O(1)<br>
 D.  O(log N), O(log N), O(N), O(log N)<br>
 E. O(N), O(N), O(1), O(log N)<br>
 
-#### Answer: 
+#### Answer: E
 ---
 #### Question 37
 
@@ -558,7 +558,7 @@ D) Θ(n!)<br>
 E) Θ(n log n)<br>
 
 
-#### Answer: 
+#### Answer: 2^n (might not be listed?)
 ---
 #### Question 38
 
@@ -573,7 +573,7 @@ C) Θ(2n)<br>
 D) Θ(n!)<br>
 E) Θ(n log n)<br>
 
-#### Answer: 
+#### Answer: n^2 (might not be listed?)
 ---
 #### Question 39 1 pts
 
