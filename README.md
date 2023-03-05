@@ -16,11 +16,17 @@
 	T(n) = 1 if  n = 1 ,
 	       n * T(n-1) if n>1 
 
+<img src="./images/Question2.png">
+
+
 https://www.youtube.com/watch?v=icS-e8RaCyo
 
-#### Answer: O(n^n)
+#### Answer: IV. n! 
 ---
 #### Question 3:
+
+<img src="./images/Question3.png">
+
 
 T(n) is O(f(n))" basically means that f(n) describes the upper bound for T(n)
 T(n) is Ω(f(n))" basically means that f(n) describes the lower bound for T(n)
@@ -32,9 +38,11 @@ Lowercase Omega and Theta are non-inclusive of the function they bound so Upperc
 ---
 #### Question 4:
 
+<img src="./images/Question4.png">
+
 post-order: left->right->root
 
-#### Answer:  A ADBKHF
+#### Answer:  C ADBKHF
 ---
 #### Question 5:
 
@@ -56,7 +64,7 @@ True	D. The best case and average case have the same order running time<br>
 
 #### Answer: D. The best case and average case have the same order running time
 ---
-#### Question 6 1 pts
+#### Question 6
 
 	for (i=n/2; i <= n; i++)
 	     for (j = 1; j <= n; j = j*2)
@@ -70,7 +78,7 @@ III. O(log n)^2 <br>
 IV. O(n^2 log n)<br>
 V. O(n log n)<br>
 
-#### Answer: II. O(log n )<br>
+#### Answer: V. O(n log n)<br>
 ---
 #### Question 7
 
@@ -88,16 +96,15 @@ D) for(i = n; i > -1; i /= 2)<br>
 #### Question 8 
 
 What is the asymptotic running time complexity of the algorithm as a function of n.
-
 	i=1 
-	while (i<= n) {
-                j=n;    
+	while (i<= n) { 
+                j=n;   //  
         	while (j>=1) {
-                                       // Something
-                	j=j/2
+                        // Something runs 
+                   j=j/2 
                 }
-                i=i+1;
-         }
+          i=i+1; 
+        }
 A: Ɵ (n)<br>
 B:  Ɵ (logn)<br>
 C: Ɵ (n logn)<br>
@@ -114,6 +121,7 @@ Which of the following have the same order of growth? Choose ALL that apply:
 <img src="./images/Question9.png">
 
 
+#### Answer: A, C, D
 ---
 #### Question 10 
 
@@ -161,11 +169,11 @@ Which of the following is NOT a MAX Heap tree?
 
 A: No <br>
 B: No <br>
-C: Maybe Yes ?<br>
+C: No<br>
 D: No<br>
 E: NO <br>
-
-#### Answer: Maybe C?
+F: Yes <br>
+#### Answer: F , None of the Above 
 --- 
 #### Question 14
 
@@ -194,12 +202,13 @@ Any random element from the given Binary Search Tree is to be searched using the
 (ii) determine the number of comparisons in the worst case.
 
 
-2.8 and 3.5
-2 and 3 2.89 and 4
-2,89 and 3
-2 and 4
+2.8 and 3.5<br>
+2 and 3<br>
+2.89 and 4<br>
+2,89 and 3<br>
+2 and 4<br>
 
-#### Answer: Worst Case is 4
+#### Answer: 2.89 and 4<br>
 --- 
 #### Question 16
 
@@ -222,8 +231,8 @@ In what order would the vertices in the graph be visited using DFS algorithm (AS
 
 	A) DFS: ABCFDGHIE BFS: ABCDEFGHI
 	B) DFS: ABCFEGDHI BFS: ABDECGFHI
-	C) DFS:ADGBEHCFI BFS: ABCEFDGHI
-	D) DFS:ADGBEHCFI BFS: ABDECGFHI
+	C) DFS: ADGBEHCFI BFS: ABCEFDGHI
+	D) DFS: ADGBEHCFI BFS: ABDECGFHI
 	E) None of the above
 
 See these examples:
@@ -257,6 +266,14 @@ Given that V is a two- dimensional matrix of 20 rows and 15 columns. The first e
 	15 * 15 + 12 = 237 entries
 	237 * 2 bytes = 474 byte offset
 
+<--- 15 col ---->
+^
+|
+20 rows
+|	V[15,12]
+^
+
+15 * 15
 
 #### Answer: D
 
@@ -326,7 +343,7 @@ I, II, and III are respectively<br>
 	E. False, True, True
 
 	n(n-1)/2 = (n^2 - n)/ 2
-#### Answer: A (I think)
+#### Answer: C 
 ---
 
 #### Question 23
@@ -339,39 +356,38 @@ I, II, and III are respectively<br>
 	D.    Ɵ (n100log n)
 	E.    Ɵ (n100 log 100)
 
-#### Answer: 
+#### Answer: B.    Ɵ (n101)
 ---
-
-
-
-#### Question 24 1 pts
+#### Question 24
 
 What is the asymptotic running time complexity of the algorithms as a function of n.
 
-Algorithm A:        
+Algorithm A:
+
 	n = 10
 	j=n j = 10
-	  while (j >= 1) {
-	    i=j;  i =1  
-	    while (i<= n) {
+	  while (j >= 1) { log ( n ) times
+	    i=j; i = 2
+	    while (i<= n) { i= 5 <=  n = 10 
 	       // Something
-	       i=i+1; i = 2
+	       i=i+1; 1 time 6 times 8 times 9 times linear times
 	    }
-	    j=j/2 j = 1
+	    j=j/2 j = 10 , 5 , 2, 1, 0
 	  }
 
- 
+	n log n 
 
-Algorithm B:        
+Algorithm B:
+
 	n = 10
 	i=1 
 	    while (i<= n) {
 	        j=n;    j=10
 		while (j>=1) {
 	     	   // Something
-	     	   	j=j/2 j =  0 3 times
+	     	   	j=j/2 4 times log(n) times
 	     	}
-	        i=i+1; i= 2
+	        i=i+1; i = 2 linear times 
 	     }
 
  
@@ -383,11 +399,11 @@ Algorithm B:
 
  
 #### Answer:  II. Algorithm A: Ɵ(n logn) Algorithm B: Ɵ;(n logn) 
-
 ---
 #### Question 25
 
 Establish how many times statement x = 2* x is executed in the asymptotic sense:
+
 	   n=10
 	   j = n; x = 1; DEBUG j = 10
 	   while ( j >= 1 ) {  log(n)
@@ -404,7 +420,7 @@ E) Theta( n )<br>
 
 #### Answer:  D) Theta( n log (n ) )
 ---
-#### Question 26 1 pts
+#### Question 26
 	n(n+1)/2 belongs to Theta(n3)
 	
 	True
@@ -442,7 +458,8 @@ D. Quick-Sort algorithm<br>
 E. Counting-Sort algorithm<br>
 
 
-#### Answer: 
+#### Answer: A. Insertion sort algorithm<br>
+
 ---
 
 #### Question 30 
@@ -457,7 +474,7 @@ III. T(n)=T(n-1)+Theta(n)<br>
 IV. T(n)=2T(n/2)+Theta(n)<br>
 V. None of the above<br>
 
-#### Answer: 
+#### Answer: I. T(n)=T(n-1)+1<br>
 ---
 
 #### Question 31
@@ -470,9 +487,8 @@ III. O(n^2)<br>
 IV. O(n log n)<br>
 V. None of the above<br>
  
-Flag question: Question 32
+#### Answer: III. O(n^2)<br>
 
-#### Answer: 
 ---
 
 #### Question 32
@@ -484,7 +500,7 @@ II. T(n) = 2T(n/2)+1<br>
 III. T(n)=T(n-1)+Theta(n)<br>
 IV. T(n)=2T(n/2)+Theta(n)<br>
 V. None of the above<br><br>
-#### Answer: 
+#### Answer: IV. T(n)=2T(n/2)+Theta(n)<br>
 ---
 #### Question 33
 
@@ -495,7 +511,7 @@ II. Bubble Sort<br>
 III. Merge Sort<br>
 IV. Quick Sort<br>
 V. Insertion Sort<br>
-#### Answer: 
+#### Answer: I. Selection Sort<br>
 ---
 #### Question 34
 
@@ -506,7 +522,7 @@ II. O(log n )<br>
 III. O(n^2)<br>
 IV. O(n log n)<br>
 
-#### Answer: 
+#### Answer: II. O(log n )<br>
 ---
 #### Question 35
 
@@ -521,9 +537,9 @@ The order of the hash codes in the table are given by
 	C. 625,125, 0, 875, 750
 	D. 625, 750, 875, 0, 125
 	E. 625, 750, 125, 875, 0
-#### Answer: 
----
 
+#### Answer: D. 625, 750, 875, 0, 125
+---
 #### Question 36
 
 Suppose we need to write an efficient program to store N employee records for ABC Inc where each employee record is identified by unique employee id. Consider the following ways to store the records.
@@ -541,7 +557,7 @@ C. O(N), O(log N), O(N), O(1)<br>
 D.  O(log N), O(log N), O(N), O(log N)<br>
 E. O(N), O(N), O(1), O(log N)<br>
 
-#### Answer: 
+#### Answer: E. O(N), O(N), O(1), O(log N)<br>
 ---
 #### Question 37
 
@@ -553,12 +569,12 @@ Then T(n) is
 
 A) Θ(n2)<br>
 B) Θ(n2 log n)<br>
-C) Θ(2n)<br>
+C) Θ(2^n)<br>
 D) Θ(n!)<br>
 E) Θ(n log n)<br>
 
 
-#### Answer: 
+#### Answer: C) Θ(2^n)<br>
 ---
 #### Question 38
 
@@ -587,7 +603,7 @@ C) Θ(2n)<br>
 D) Θ(n!)<br>
 E) Θ(n log n)<br>
 
-#### Answer: 
+#### Answer: A) Θ(n2)<br>
 ---
 #### Question 40
 
@@ -601,13 +617,22 @@ C) Θ(2n)<br>
 D) Θ(n!)<br>
 E) Θ(n log n)<br>
 
-#### Question 41 1 pts
+#### Answer: B) Θ(n2 log n)<br>
+---
+#### Question 41
 
 Which of the following is the solution using the Master Theorem for the recurrence relation
 
 T(n)=3T(n/2) + n2
 
-#### Answer: 
+A) Θ(n2)<br>
+B) Θ(n2 log n)<br>
+C) Θ(2n)<br>
+D) Θ(n!)<br>
+E) Θ(n log n)<br>
+
+#### Answer: A) Θ(n2)<br>
+
 ---
 
 #### Question 42
@@ -616,6 +641,12 @@ What is the minimum possible weight of the spanning tree
 
 <img src="./images/Question42.png">
 
+G < - > C 1
+B < - > C 4
+B < - > D 1
+D < - > F 2
+B < - > A 3
+A < - > E 4
 
 A) 25<br>
 B) 15<br>
@@ -627,7 +658,7 @@ E) 16<br>
 
 
 
-#### Answer: 
+#### Answer: B) 15<br>
 ---
 #### Question 43
 
@@ -635,7 +666,7 @@ Which of the above graphs can be categorized as a tree?
 
 <img src="./images/Question43.jpg">
 
-#### Answer: 
+#### Answer: Graph 1 and Graph 3
 ---
 
 #### Question 44
@@ -652,9 +683,8 @@ II)  b, a, d, c, h, e, f, g<br>
 III) b, a, e, d, g, c, f, h<br>
 IV)  b, a , d, e, c, f, g, h<br>
 V) None of the above<br>
-#### Answer: 
+#### Answer: I got badchfge V) None of the above <br>
 ---
-
 #### Question 45
 
 Consider the MAX HEAP below:
@@ -662,7 +692,7 @@ Consider the MAX HEAP below:
 
 <img src="./images/Question45.png">
 
-#### Answer: 
+#### Answer:  A
 ---
 #### Question 46
 
